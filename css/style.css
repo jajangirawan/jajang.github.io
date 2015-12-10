@@ -698,7 +698,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     border-radius:100px;
     display:none;
     opacity:1;
-    background:url(images/to-top.png) no-repeat center 7px;
+    background:url(/images/to-top.png) no-repeat center 7px;
     background-size:11px 6px;
     cursor:pointer
 }
@@ -893,7 +893,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 .left .menu-close {
     width:22px;
     height:22px;
-    background:url(images/view-close.png);
+    background:url(/images/view-close.png);
     background-size:22px 22px;
     cursor:pointer;
     position:absolute;
@@ -905,7 +905,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 .right .menu-close {
     width:22px;
     height:22px;
-    background:url(images/view-close.png);
+    background:url(/images/view-close.png);
     background-size:22px 22px;
     cursor:pointer;
     position:absolute;
@@ -917,7 +917,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 .menu-close-blog {
     width:22px;
     height:22px;
-    background:url(images/view-close.png);
+    background:url(/images/view-close.png);
     background-size:22px 22px;
     cursor:pointer;
     position:absolute;
@@ -930,7 +930,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     .left .menu-close-slide {
         width:22px;
         height:22px;
-        background:url(images/view-close.png);
+        background:url(/images/view-close.png);
         background-size:22px 22px;
         cursor:pointer;
         position:absolute;
@@ -944,7 +944,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     .right .menu-close-slide {
         width:22px;
         height:22px;
-        background:url(images/view-close.png);
+        background:url(/images/view-close.png);
         background-size:22px 22px;
         cursor:pointer;
         position:absolute;
@@ -960,7 +960,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     .left .menu-close-slide {
         width:22px;
         height:22px;
-        background:url(images/view-close.png);
+        background:url(/images/view-close.png);
         background-size:22px 22px;
         cursor:pointer;
         position:absolute;
@@ -973,7 +973,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     .right .menu-close-slide {
         width:22px;
         height:22px;
-        background:url(images/view-close.png);
+        background:url(/images/view-close.png);
         background-size:22px 22px;
         cursor:pointer;
         position:absolute;
@@ -987,7 +987,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 .left .menu-close-dark {
     width:22px;
     height:22px;
-    background:url(images/view-close-dark.png);
+    background:url(/images/view-close-dark.png);
     background-size:22px 22px;
     cursor:pointer;
     position:absolute;
@@ -999,7 +999,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 .right .menu-close-dark {
     width:22px;
     height:22px;
-    background:url(images/view-close-dark.png);
+    background:url(/images/view-close-dark.png);
     background-size:22px 22px;
     cursor:pointer;
     position:absolute;
@@ -1716,7 +1716,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     z-index:999999;
     width:100%;
     height:100%;
-    cursor:url(images/close-b.png) 38 38,default;
+    cursor:url(/images/close-b.png) 38 38,default;
     opacity:.85;
     display:none
 }
@@ -2514,7 +2514,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         -moz-transition:all .2s ease-in-out;
         -ms-transition:all .2s ease-in-out;
         opacity:.9;
-        cursor:url(images/cross.png) 38 38,default
+        cursor:url(/images/cross.png) 38 38,default
     }
 }
 
@@ -3481,7 +3481,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 
 .po-slider .bx-wrapper .bx-prev {
     border-left:none;
-    background:url(images/slide-arrow-left.png) no-repeat 40px 8px;
+    background:url(/images/slide-arrow-left.png) no-repeat 40px 8px;
     -webkit-border-top-right-radius:2px;
     -webkit-border-bottom-right-radius:2px;
     -moz-border-radius-topright:2px;
@@ -3492,7 +3492,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 
 .po-slider .bx-wrapper .bx-next {
     border-right:none;
-    background:url(images/slide-arrow-right.png) no-repeat 13px 8px;
+    background:url(/images/slide-arrow-right.png) no-repeat 13px 8px;
     -webkit-border-top-left-radius:2px;
     -webkit-border-bottom-left-radius:2px;
     -moz-border-radius-topleft:2px;
@@ -3503,13 +3503,13 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 
 .po-slider .bx-wrapper .bx-prev:hover {
     padding-left:60px;
-    background:url(images/slide-arrow-left-dark.png) no-repeat 60px 8px #fff;
+    background:url(/images/slide-arrow-left-dark.png) no-repeat 60px 8px #fff;
     opacity:1
 }
 
 .po-slider .bx-wrapper .bx-next:hover {
     padding-right:60px;
-    background:url(images/slide-arrow-right-dark.png) no-repeat 23px 8px #fff;
+    background:url(/images/slide-arrow-right-dark.png) no-repeat 23px 8px #fff;
     opacity:1
 }
 
@@ -3559,7 +3559,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     width:10px;
     height:11px;
     outline:0;
-    background:url(images/controls.png) -86px -11px no-repeat;
+    background:url(/images/controls.png) -86px -11px no-repeat;
     margin:0 3px
 }
 
@@ -3573,7 +3573,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     width:9px;
     height:11px;
     outline:0;
-    background:url(images/controls.png) -86px -44px no-repeat;
+    background:url(/images/controls.png) -86px -44px no-repeat;
     margin:0 3px
 }
 
@@ -3953,7 +3953,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     border-left:none;
     float:left;
     padding-left:0;
-    background:url(images/slide-arrow-left.png) no-repeat 10px 8px rgba(0,0,0,0.05);
+    background:url(/images/slide-arrow-left.png) no-repeat 10px 8px rgba(0,0,0,0.05);
     -webkit-border-top-right-radius:2px;
     -webkit-border-bottom-right-radius:2px;
     -moz-border-radius-topright:2px;
@@ -3967,7 +3967,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     border-right:none;
     float:right;
     padding-right:0;
-    background:url(images/slide-arrow-right.png) no-repeat 13px 8px rgba(0,0,0,0.05);
+    background:url(/images/slide-arrow-right.png) no-repeat 13px 8px rgba(0,0,0,0.05);
     -webkit-border-top-left-radius:2px;
     -webkit-border-bottom-left-radius:2px;
     -moz-border-radius-topleft:2px;
@@ -3979,14 +3979,14 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 
 .po-carouseleds .bx-wrapper .bx-prev:hover {
     padding-left:0;
-    background:url(images/slide-arrow-left.png) no-repeat 10px 8px;
+    background:url(/images/slide-arrow-left.png) no-repeat 10px 8px;
     border-left:none;
     opacity:1
 }
 
 .po-carouseleds .bx-wrapper .bx-next:hover {
     padding-right:0;
-    background:url(images/slide-arrow-right.png) no-repeat 13px 8px;
+    background:url(/images/slide-arrow-right.png) no-repeat 13px 8px;
     border-right:none;
     opacity:1
 }
@@ -4042,7 +4042,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     padding:20px;
     color:#fff;
     z-index:2;
-    cursor:url(images/view-open.png) 35 35,default
+    cursor:url(/images/view-open.png) 35 35,default
 }
 
 .po-carouseleds .grid figcaption h6 {
@@ -4141,11 +4141,11 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     padding:20px;
     color:#fff;
     z-index:2;
-    cursor:url(images/view-open.png) 35 35,default
+    cursor:url(/images/view-open.png) 35 35,default
 }
 
 .portfolio-item-effect .portfolio-item-footer .grid figcaption {
-    cursor:url(images/cross-footer.png) 35 35,default
+    cursor:url(/images/cross-footer.png) 35 35,default
 }
 
 .portfolio-item-effect .grid figcaption h3 {
@@ -4312,7 +4312,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     -ms-transition:all .2s ease-in-out;
     width:22px;
     height:22px;
-    background:url(images/view-close.png) no-repeat;
+    background:url(/images/view-close.png) no-repeat;
     background-size:22px 22px;
     right:20px;
     top:15px
@@ -4544,7 +4544,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     width:50%;
     height:550px;
     margin-top:0;
-    cursor:url(images/next.png) 38 38,default
+    cursor:url(/images/next.png) 38 38,default
 }
 
 .po-portfolio-slider .bx-wrapper .bx-next {
@@ -4553,7 +4553,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     height:550px;
     margin-top:0;
     right:0;
-    cursor:url(images/prev.png) 38 38,default
+    cursor:url(/images/prev.png) 38 38,default
 }
 
 @media (max-width: 767px) {
@@ -4600,7 +4600,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     width:10px;
     height:11px;
     outline:0;
-    background:url(images/controls.png) -86px -11px no-repeat;
+    background:url(/images/controls.png) -86px -11px no-repeat;
     margin:0 3px
 }
 
@@ -4614,7 +4614,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     width:9px;
     height:11px;
     outline:0;
-    background:url(images/controls.png) -86px -44px no-repeat;
+    background:url(/images/controls.png) -86px -44px no-repeat;
     margin:0 3px
 }
 
@@ -4814,7 +4814,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         width:50%;
         height:270px;
         margin-top:0;
-        background:url(images/next-light-2.png) 5% center no-repeat;
+        background:url(/images/next-light-2.png) 5% center no-repeat;
         background-size:15px 40px
     }
 
@@ -4824,7 +4824,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         height:270px;
         margin-top:0;
         right:0;
-        background:url(images/prev-light-2.png) 95% center no-repeat;
+        background:url(/images/prev-light-2.png) 95% center no-repeat;
         background-size:15px 40px
     }
 }
@@ -4837,7 +4837,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         width:50%;
         height:300px;
         margin-top:0;
-        background:url(images/next-light-5.png) 5% center no-repeat;
+        background:url(/images/next-light-5.png) 5% center no-repeat;
         background-size:15px 40px
     }
 
@@ -4847,7 +4847,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         height:300px;
         margin-top:0;
         right:0;
-        background:url(images/prev-light-5.png) 95% center no-repeat;
+        background:url(/images/prev-light-5.png) 95% center no-repeat;
         background-size:15px 40px
     }
 }
@@ -4860,7 +4860,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         width:50%;
         height:550px;
         margin-top:0;
-        cursor:url(images/next-light-2.png) 38 38,default
+        cursor:url(/images/next-light-2.png) 38 38,default
     }
 
     .po-portfolio-slider2 .bx-wrapper .bx-next {
@@ -4869,7 +4869,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         height:450px;
         margin-top:0;
         right:0;
-        cursor:url(images/prev-light-2.png) 38 38,default
+        cursor:url(/images/prev-light-2.png) 38 38,default
     }
 }
 
@@ -4917,7 +4917,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     width:10px;
     height:11px;
     outline:0;
-    background:url(images/controls.png) -86px -11px no-repeat;
+    background:url(/images/controls.png) -86px -11px no-repeat;
     margin:0 3px
 }
 
@@ -4931,7 +4931,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     width:9px;
     height:11px;
     outline:0;
-    background:url(images/controls.png) -86px -44px no-repeat;
+    background:url(/images/controls.png) -86px -44px no-repeat;
     margin:0 3px
 }
 
@@ -5099,7 +5099,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         width:50%;
         height:270px;
         margin-top:0;
-        background:url(images/next-light-2.png) 5% center no-repeat;
+        background:url(/images/next-light-2.png) 5% center no-repeat;
         background-size:15px 40px
     }
 
@@ -5109,7 +5109,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         height:270px;
         margin-top:0;
         right:0;
-        background:url(images/prev-light-2.png) 95% center no-repeat;
+        background:url(/images/prev-light-2.png) 95% center no-repeat;
         background-size:15px 40px
     }
 }
@@ -5122,7 +5122,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         width:50%;
         height:300px;
         margin-top:0;
-        background:url(images/next-light-5.png) 5% center no-repeat;
+        background:url(/images/next-light-5.png) 5% center no-repeat;
         background-size:15px 40px
     }
 
@@ -5132,7 +5132,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         height:300px;
         margin-top:0;
         right:0;
-        background:url(images/prev-light-5.png) 95% center no-repeat;
+        background:url(/images/prev-light-5.png) 95% center no-repeat;
         background-size:15px 40px
     }
 }
@@ -5145,7 +5145,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         width:50%;
         height:300px;
         margin-top:0;
-        cursor:url(images/next-light.png) 38 38,default;
+        cursor:url(/images/next-light.png) 38 38,default;
         background:none
     }
 
@@ -5155,7 +5155,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         height:300px;
         margin-top:0;
         right:0;
-        cursor:url(images/prev-light.png) 38 38,default;
+        cursor:url(/images/prev-light.png) 38 38,default;
         background:none
     }
 }
@@ -5204,7 +5204,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     width:10px;
     height:11px;
     outline:0;
-    background:url(images/controls.png) -86px -11px no-repeat;
+    background:url(/images/controls.png) -86px -11px no-repeat;
     margin:0 3px
 }
 
@@ -5218,7 +5218,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     width:9px;
     height:11px;
     outline:0;
-    background:url(images/controls.png) -86px -44px no-repeat;
+    background:url(/images/controls.png) -86px -44px no-repeat;
     margin:0 3px
 }
 
@@ -5382,7 +5382,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         width:35px;
         height:170px;
         margin-top:0;
-        background:url(images/next-light-ie.png) no-repeat 4% center!important
+        background:url(/images/next-light-ie.png) no-repeat 4% center!important
     }
 
     .po-portfolio-slider-top .bx-wrapper .bx-next {
@@ -5391,7 +5391,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         height:170px;
         margin-top:0;
         right:20px;
-        background:url(images/prev-light-ie.png) 96% center no-repeat!important
+        background:url(/images/prev-light-ie.png) 96% center no-repeat!important
     }
 }
 
@@ -5403,7 +5403,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         width:35px;
         height:170px;
         margin-top:0;
-        background:url(images/next-light-ie.png) no-repeat 4% center!important
+        background:url(/images/next-light-ie.png) no-repeat 4% center!important
     }
 
     .po-portfolio-slider-top .bx-wrapper .bx-next {
@@ -5412,7 +5412,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         height:170px;
         margin-top:0;
         right:20px;
-        background:url(images/prev-light-ie.png) 96% center no-repeat!important
+        background:url(/images/prev-light-ie.png) 96% center no-repeat!important
     }
 }
 
@@ -5424,7 +5424,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         width:35px;
         height:170px;
         margin-top:0;
-        background:url(images/next-light-ie.png) no-repeat 4% center!important
+        background:url(/images/next-light-ie.png) no-repeat 4% center!important
     }
 
     .po-portfolio-slider-top .bx-wrapper .bx-next {
@@ -5433,7 +5433,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
         height:170px;
         margin-top:0;
         right:20px;
-        background:url(images/prev-light-ie.png) 96% center no-repeat!important
+        background:url(/images/prev-light-ie.png) 96% center no-repeat!important
     }
 }
 
@@ -5481,7 +5481,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     width:10px;
     height:11px;
     outline:0;
-    background:url(images/controls.png) -86px -11px no-repeat;
+    background:url(/images/controls.png) -86px -11px no-repeat;
     margin:0 3px
 }
 
@@ -5495,7 +5495,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     width:9px;
     height:11px;
     outline:0;
-    background:url(images/controls.png) -86px -44px no-repeat;
+    background:url(/images/controls.png) -86px -44px no-repeat;
     margin:0 3px
 }
 
@@ -5816,7 +5816,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
     z-index: 9999999999999999999999999999928;
     width:100%;
     height:100%;
-    cursor:url(images/close-b.png) 38 38,default;
+    cursor:url(/images/close-b.png) 38 38,default;
     display:none
 }
 
@@ -6048,7 +6048,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 }
 
 .white-content .slider-subtitle span,.white-content .subtitle-port span {
-    background:url(images/cat-sep.png) no-repeat;
+    background:url(/images/cat-sep.png) no-repeat;
     background-size:9px 9px
 }
 
@@ -6069,12 +6069,12 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 }
 
 .white-content .next-portfolio-item {
-    background:url(images/arrow-large-left.png) no-repeat;
+    background:url(/images/arrow-large-left.png) no-repeat;
     background-size:25px 21px
 }
 
 .white-content .prev-portfolio-item {
-    background:url(images/arrow-large-right.png) no-repeat;
+    background:url(/images/arrow-large-right.png) no-repeat;
     background-size:25px 21px
 }
 
@@ -6120,7 +6120,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 }
 
 .light-content .slider-subtitle span,.light-content .subtitle-port span {
-    background:url(images/cat-sep-light.png) no-repeat
+    background:url(/images/cat-sep-light.png) no-repeat
 }
 
 .light-content a.go-to-click,.light-content a.go-to-click-slide {
@@ -6140,12 +6140,12 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 }
 
 .light-content .next-portfolio-item {
-    background:url(images/arrow-large-left-light.png) no-repeat;
+    background:url(/images/arrow-large-left-light.png) no-repeat;
     background-size:25px 21px
 }
 
 .light-content .prev-portfolio-item {
-    background:url(images/arrow-large-right-light.png) no-repeat;
+    background:url(/images/arrow-large-right-light.png) no-repeat;
     background-size:25px 21px
 }
 
@@ -6195,7 +6195,7 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 }
 
 .black-content .slider-subtitle span,.black-content .subtitle-port span {
-    background:url(images/cat-sep-dark.png) no-repeat
+    background:url(/images/cat-sep-dark.png) no-repeat
 }
 
 .black-content a.go-to-click,.black-content a.go-to-click-slide {
@@ -6215,12 +6215,12 @@ input[type="text"],input[type="email"],input[type="search"],textarea {
 }
 
 .black-content .next-portfolio-item {
-    background:url(images/arrow-large-left-black.png) no-repeat;
+    background:url(/images/arrow-large-left-black.png) no-repeat;
     background-size:25px 21px
 }
 
 .black-content .prev-portfolio-item {
-    background:url(images/arrow-large-right-black.png) no-repeat;
+    background:url(/images/arrow-large-right-black.png) no-repeat;
     background-size:25px 21px
 }
 
@@ -7887,7 +7887,7 @@ pullUp
 }
 
 .liquid-container-page a {
-    cursor:url(images/close-b.png) 38 38,default
+    cursor:url(/images/close-b.png) 38 38,default
 }
 
 @media (max-width: 767px) {
@@ -7956,13 +7956,13 @@ pullUp
 .portfolio-item a {
     display:block;
     position:relative;
-    cursor:url(images/cross.png) 38 38,default
+    cursor:url(/images/cross.png) 38 38,default
 }
 
 .portfolio-item-footer a {
     display:block;
     position:relative;
-    cursor:url(images/cross-footer.png) 38 38,default
+    cursor:url(/images/cross-footer.png) 38 38,default
 }
 
 .item-title {
@@ -7983,7 +7983,7 @@ pullUp
     margin-right:4px;
     width:9px;
     height:9px;
-    background:url(images/cat-sep.png) no-repeat;
+    background:url(/images/cat-sep.png) no-repeat;
     background-size:9px 9px
 }
 
@@ -8037,7 +8037,7 @@ pullUp
 
 @media (min-width: 768px) {
     .portfolio-item a:hover .subtitle span {
-        background:url(images/cat-sep-w.png) no-repeat
+        background:url(/images/cat-sep-w.png) no-repeat
     }
 }
 
@@ -8491,7 +8491,7 @@ pullUp
     height:580px;
     display:block;
     position:relative;
-    cursor:url(images/cross.png) 38 38,default
+    cursor:url(/images/cross.png) 38 38,default
 }
 
 .index-s a {
@@ -8499,7 +8499,7 @@ pullUp
     height:580px;
     display:block;
     position:relative;
-    cursor:url(images/cross.png) 38 38,default
+    cursor:url(/images/cross.png) 38 38,default
 }
 
 .next-s a {
@@ -8507,7 +8507,7 @@ pullUp
     height:580px;
     display:block;
     position:relative;
-    cursor:url(images/cross.png) 38 38,default
+    cursor:url(/images/cross.png) 38 38,default
 }
 
 .next-s .arrow:hover .banner {
@@ -8521,7 +8521,7 @@ pullUp
     width:60px;
     height:100%;
     z-index:50;
-    cursor:url(images/prev.png) 38 38,default
+    cursor:url(/images/prev.png) 38 38,default
 }
 
 .arrow-next {
@@ -8530,7 +8530,7 @@ pullUp
     width:60px;
     height:100%;
     z-index:50;
-    cursor:url(images/next.png) 38 38,default
+    cursor:url(/images/next.png) 38 38,default
 }
 
 .banner {
@@ -8619,7 +8619,7 @@ pullUp
     top:350px;
     margin-top:-40px;
     left:-22px;
-    background:url(images/next-b.png) no-repeat
+    background:url(/images/next-b.png) no-repeat
 }
 
 .prev-b {
@@ -8629,7 +8629,7 @@ pullUp
     top:350px;
     margin-top:-40px;
     right:-22px;
-    background:url(images/prev-b.png) no-repeat
+    background:url(/images/prev-b.png) no-repeat
 }
 
 .next-team {
@@ -8639,7 +8639,7 @@ pullUp
     top:230px;
     margin-top:0;
     left:-22px;
-    background:url(images/next-b.png) no-repeat
+    background:url(/images/next-b.png) no-repeat
 }
 
 .prev-team {
@@ -8649,7 +8649,7 @@ pullUp
     top:230px;
     margin-top:0;
     right:-22px;
-    background:url(images/prev-b.png) no-repeat
+    background:url(/images/prev-b.png) no-repeat
 }
 
 .portfolio-link ul,.portfolio-cat ul,.portfolio-date ul {
@@ -8773,7 +8773,7 @@ pullUp
 .pagination-arrow-next {
     width:25px;
     height:21px;
-    background:url(images/filter-arrow-right-grey-small.png) no-repeat 12px 5px;
+    background:url(/images/filter-arrow-right-grey-small.png) no-repeat 12px 5px;
     background-size:12px 13px;
     transition:all .2s ease-in-out;
     -webkit-transition:all .2s ease-in-out;
@@ -8782,14 +8782,14 @@ pullUp
 }
 
 .pagination li a:hover .pagination-arrow-next {
-    background:url(images/filter-arrow-right-white-small.png) no-repeat 12px 5px;
+    background:url(/images/filter-arrow-right-white-small.png) no-repeat 12px 5px;
     background-size:12px 13px
 }
 
 .pagination-arrow-prev {
     width:25px;
     height:21px;
-    background:url(images/filter-arrow-left-grey-small.png) no-repeat 12px 5px;
+    background:url(/images/filter-arrow-left-grey-small.png) no-repeat 12px 5px;
     background-size:12px 13px;
     transition:all .2s ease-in-out;
     -webkit-transition:all .2s ease-in-out;
@@ -8798,7 +8798,7 @@ pullUp
 }
 
 .pagination li a:hover .pagination-arrow-prev {
-    background:url(images/filter-arrow-left-white-small.png) no-repeat 12px 5px;
+    background:url(/images/filter-arrow-left-white-small.png) no-repeat 12px 5px;
     background-size:12px 13px
 }
 
@@ -8865,7 +8865,7 @@ pullUp
     color:#fff;
     width:35px;
     height:31px;
-    background:url(images/filter-arrow-right-white-small.png) no-repeat 11px 9px
+    background:url(/images/filter-arrow-right-white-small.png) no-repeat 11px 9px
 }
 
 .po-filter-portfolio {
@@ -8879,7 +8879,7 @@ pullUp
     color:#fff;
     width:35px;
     height:31px;
-    background:url(images/filter-arrow-left-white-small.png) no-repeat 11px 9px;
+    background:url(/images/filter-arrow-left-white-small.png) no-repeat 11px 9px;
     background-size:12px 13px
 }
 
@@ -8904,7 +8904,7 @@ pullUp
     color:#fff;
     width:35px;
     height:31px;
-    background:url(images/menu-lines-close.png) no-repeat 11px 9px;
+    background:url(/images/menu-lines-close.png) no-repeat 11px 9px;
     background-size:12px 13px;
     border:none;
     position:relative;
@@ -8919,7 +8919,7 @@ pullUp
     color:#fff;
     width:35px;
     height:31px;
-    background:url(images/menu-lines.png) no-repeat 11px 9px;
+    background:url(/images/menu-lines.png) no-repeat 11px 9px;
     background-size:12px 13px;
     border:none;
     position:relative;
@@ -8934,7 +8934,7 @@ pullUp
     color:#fff;
     width:35px;
     height:31px;
-    background:url(images/filter-arrow-right-white-small.png) no-repeat 11px 9px;
+    background:url(/images/filter-arrow-right-white-small.png) no-repeat 11px 9px;
     border:none
 }
 
@@ -8946,7 +8946,7 @@ pullUp
     color:#fff;
     width:35px;
     height:31px;
-    background:url(images/footer-down.png) no-repeat 11px 10px #000;
+    background:url(/images/footer-down.png) no-repeat 11px 10px #000;
     background-size:13px 12px;
     border:none;
     position:absolute;
@@ -9111,7 +9111,7 @@ pullUp
     color:rgba(255,255,255,0);
     width:25px;
     height:21px;
-    background:url(images/arrow-large-left-grey.png) no-repeat;
+    background:url(/images/arrow-large-left-grey.png) no-repeat;
     transition:all .2s ease-in-out;
     -webkit-transition:all .2s ease-in-out;
     -moz-transition:all .2s ease-in-out;
@@ -9122,7 +9122,7 @@ pullUp
     color:rgba(255,255,255,0);
     width:25px;
     height:21px;
-    background:url(images/arrow-large-right-grey.png) no-repeat;
+    background:url(/images/arrow-large-right-grey.png) no-repeat;
     transition:all .2s ease-in-out;
     -webkit-transition:all .2s ease-in-out;
     -moz-transition:all .2s ease-in-out;
@@ -9131,7 +9131,7 @@ pullUp
 }
 
 .nav-portfolio-item:hover .prev-post-item {
-    background:url(images/arrow-large-right.png) no-repeat
+    background:url(/images/arrow-large-right.png) no-repeat
 }
 
 .nav-portfolio-item {
@@ -9385,7 +9385,7 @@ pullUp
     width:100%;
     height:300px;
     text-align:center;
-    cursor:url(images/view-open.png) 35 35,default;
+    cursor:url(/images/view-open.png) 35 35,default;
     transition:all .2s ease-in-out;
     -webkit-transition:all .2s ease-in-out;
     -moz-transition:all .2s ease-in-out;
@@ -9580,7 +9580,7 @@ pullUp
     width:100%;
     height:230px;
     text-align:center;
-    cursor:url(images/view-open.png) 35 35,default
+    cursor:url(/images/view-open.png) 35 35,default
 }
 
 .portfolio-item-effect-3 .grid figure .port-img {
@@ -9762,7 +9762,7 @@ pullUp
     overflow:hidden;
     width:100%;
     height:230px;
-    cursor:url(images/view-open.png) 35 35,default;
+    cursor:url(/images/view-open.png) 35 35,default;
     background:none
 }
 
@@ -10549,7 +10549,7 @@ form.invalid input.formoids-not-valid {
     margin-right:4px;
     width:9px;
     height:9px;
-    background:url(images/cat-sep.png) no-repeat
+    background:url(/images/cat-sep.png) no-repeat
 }
 
 .team-item {
@@ -10611,7 +10611,7 @@ form.invalid input.formoids-not-valid {
 
 @media (min-width: 768px) {
     .team-item a:hover .subtitle span {
-        background:url(images/cat-sep-w.png) no-repeat
+        background:url(/images/cat-sep-w.png) no-repeat
     }
 }
 
@@ -10637,7 +10637,7 @@ h5.team-title {
     margin-right:4px;
     width:9px;
     height:9px;
-    background:url(images/cat-sep.png) no-repeat;
+    background:url(/images/cat-sep.png) no-repeat;
     opacity:.8
 }
 
@@ -10802,7 +10802,7 @@ h5.team-title {
         width:50%;
         height:270px;
         margin-top:0;
-        background:url(images/next-light-3.png) 5% center no-repeat;
+        background:url(/images/next-light-3.png) 5% center no-repeat;
         background-size:17px 40px
     }
 
@@ -10812,7 +10812,7 @@ h5.team-title {
         height:270px;
         margin-top:0;
         right:0;
-        background:url(images/prev-light-3.png) 95% center no-repeat;
+        background:url(/images/prev-light-3.png) 95% center no-repeat;
         background-size:17px 40px
     }
 }
@@ -10825,7 +10825,7 @@ h5.team-title {
         width:50%;
         height:455px;
         margin-top:0;
-        background:url(images/next-light-4.png) 5% center no-repeat;
+        background:url(/images/next-light-4.png) 5% center no-repeat;
         background-size:15px 40px
     }
 
@@ -10835,7 +10835,7 @@ h5.team-title {
         height:455px;
         margin-top:0;
         right:0;
-        background:url(images/prev-light-4.png) 95% center no-repeat;
+        background:url(/images/prev-light-4.png) 95% center no-repeat;
         background-size:15px 40px
     }
 }
@@ -10848,7 +10848,7 @@ h5.team-title {
         width:50%;
         height:455px;
         margin-top:0;
-        cursor:url(images/next-light-2.png) 38 38,default;
+        cursor:url(/images/next-light-2.png) 38 38,default;
         background:none
     }
 
@@ -10858,7 +10858,7 @@ h5.team-title {
         height:455px;
         margin-top:0;
         right:0;
-        cursor:url(images/prev-light-2.png) 38 38,default;
+        cursor:url(/images/prev-light-2.png) 38 38,default;
         background:none
     }
 }
@@ -12142,7 +12142,7 @@ html,body {
 }
 
 .side-nav-inner .parent-menu > a:after {
-    content:url(images/has-child.png);
+    content:url(/images/has-child.png);
     margin-left:5px
 }
 
@@ -12172,7 +12172,7 @@ html,body {
 }
 
 .side-nav-inner .sub-menu li:before {
-    content:url(images/men-cross.png);
+    content:url(/images/men-cross.png);
     margin-right:10px;
     margin-left:-18px
 }
@@ -12451,7 +12451,7 @@ html,body {
 }
 
 .horiz-nav .parent-menu > a:after {
-    content:url(images/has-child.png);
+    content:url(/images/has-child.png);
     margin-left:5px
 }
 
@@ -12617,7 +12617,7 @@ html,body {
 }
 
 .horiz-nav-bottom .parent-menu > a:after {
-    content:url(images/has-child.png);
+    content:url(/images/has-child.png);
     margin-left:5px
 }
 
@@ -12637,7 +12637,7 @@ html,body {
 }
 
 .horiz-nav-bottom .sub-menu li:before {
-    content:url(images/men-cross.png);
+    content:url(/images/men-cross.png);
     margin-right:10px;
     margin-left:-18px
 }
@@ -13068,4 +13068,3 @@ html,body {
 ul.archive-list li {
     width: auto!important;
 }
-
