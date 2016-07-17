@@ -5,41 +5,39 @@ var App = { init: function() { App.HomepageHeight();           // helper script 
 							   App.MaxImage_Slider();          // homepage background - image slider
 							   App.MaxImage_Single();          // homepage background - vingle image
 							   App.ScrollToSomeplace();        // script resposible for smooth scrolling after clicking on menu item
-							   App.FormValidation();           // newsletter form validation
-							   App.ContactForm();              // contact form
 							   App.Fit_Vids();                 // responsive videos
 							   App.Stellar();                  // parallax effect
 							   App.Reviews();                  // reviews carousel
-							   App.Screenshots_Carousel();     // screenshots carousel 
+							   App.Screenshots_Carousel();     // screenshots carousel
 							   App.Nivo_Lightbox();            // lightbox
 							   App.Elements_animation();       // animations
 							   },
 
 	// Homepage Height
 	HomepageHeight: function() {
-	"use strict"; 
+	"use strict";
 	    var h = window.innerHeight;
 	    $('.hero_fullscreen').css('height', h );
 	    $('.mockup').css('height', h );
 	},
-	
-	
+
+
 	// Homepage Opacity - for single background image version
 	HomepageOpacity: function() {
-    "use strict"; 
+    "use strict";
         var h = window.innerHeight;
         $(window).on('scroll', function() {
             var st = $(this).scrollTop();
             $('#maximage_single').css('opacity', (1-st/h) );
         });
     },
-	
-	
+
+
 	// MaxImage Fullscreen Background Slider
 	MaxImage_Video: function() {
 	"use strict";
 	    jQuery('video, object').maximage('maxcover');
-	    
+
 	    // detecting if browser is mobile and disabling the video background, leaving only poster as bg.
 		if( navigator.userAgent.match(/Android/i)
 		|| navigator.userAgent.match(/webOS/i)
@@ -53,26 +51,26 @@ var App = { init: function() { App.HomepageHeight();           // helper script 
 		    classie.add( document.getElementById( 'maximage_video' ), 'mobile_novideo' );
 		  };
 	},
-	
-	
+
+
 	// MaxImage Fullscreen Background Slider
 	MaxImage_Slider: function() {
-	"use strict"; 
+	"use strict";
 	    $('#maximage_slider').maximage();
 	},
-	
-	
+
+
 	// MaxImage Fullscreen Background Slider
 	MaxImage_Single: function() {
 	"use strict";
 	    $('#maximage_single').maximage();
 	},
-	
-	
+
+
 	// Scroll To ...
     ScrollToSomeplace: function() {
-    $('.go_to_home').click(function () {$.scrollTo('.hero_fullscreen',1000,{easing:'easeInOutExpo','axis':'y'});return false}); 
-    
+    $('.go_to_home').click(function () {$.scrollTo('.hero_fullscreen',1000,{easing:'easeInOutExpo','axis':'y'});return false});
+
     var lastId,
     navbarheight = $("#menu_bar").outerHeight()+1;
     topMenu = $('.menu_bar_navigation, .navigation_desktop, #mobile_menu_content, .cta_button_area');
@@ -81,14 +79,14 @@ var App = { init: function() { App.HomepageHeight();           // helper script 
         var item = $($(this).attr("href"));
         if (item.length) { return item; }
     });
- 
+
     menuItems.click(function(e){
         var href = $(this).attr("href"),
         offsetTop = href === "#" ? 0 : $(href).offset().top-navbarheight+2;
         $('html, body').stop().animate({ scrollTop: offsetTop  }, 1000, 'easeInOutExpo');
         e.preventDefault();
     });
- 
+
     $(window).scroll(function(){
         // Get container scroll position
         var fromTop = $(this).scrollTop()+navbarheight;
@@ -108,40 +106,12 @@ var App = { init: function() { App.HomepageHeight();           // helper script 
         menuItems
         .parent().removeClass("active")
         .end().filter("[href=#"+id+"]").parent().addClass("active");
-        }                   
+        }
     });
-    
+
     },
-    
-    
-	// Newsletter Form Validation
-    FormValidation: function() {
-	    function isValidEmailAddress(emailAddress) {
-	    var pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i);
-	    return pattern.test(emailAddress);
-		};
-    
-	    $('#subscribe-form').isHappy({
-	    submitButton: '#subscribe-form-submit',
-	    fields: {
-	      '#email': {
-	        required: true,
-	        message: 'Please enter a valid e-mail address!',
-	        test: isValidEmailAddress
-	      }
-	    }
-		});
-    },
-    
-    
-    // Contact Form
-    ContactForm: function() {
-	     "use strict";
-	    var options = {target: "#alert"}
-	    $("#contact-form").ajaxForm(options);
-    },
-    
-    
+
+
     // Elements Animation
     Elements_animation: function() {
 		$('#more_info').waypoint(function() {
@@ -150,8 +120,8 @@ var App = { init: function() { App.HomepageHeight();           // helper script 
             setTimeout(function(){$('.content_anim3').addClass('animated fadeInUp')},400);
             setTimeout(function(){$('.content_anim4').addClass('animated fadeInUp')},600);
             setTimeout(function(){$('.content_anim5').addClass('animated fadeInUp')},800);
-        }, { offset: '50%' });    
-    
+        }, { offset: '50%' });
+
     	$('#features').waypoint(function() {
             setTimeout(function(){$('.content_anim6').addClass('animated fadeInUp')},0);
             setTimeout(function(){$('.content_anim7').addClass('animated fadeInUp')},200);
@@ -159,7 +129,7 @@ var App = { init: function() { App.HomepageHeight();           // helper script 
             setTimeout(function(){$('.content_anim9').addClass('animated fadeInUp')},600);
             setTimeout(function(){$('.content_anim10').addClass('animated fadeInUp')},800);
         }, { offset: '50%' });
-        
+
         $('#features_video').waypoint(function() {
             setTimeout(function(){$('.content_anim11').addClass('animated fadeInUp')},0);
             setTimeout(function(){$('.content_anim12').addClass('animated fadeInUp')},200);
@@ -168,7 +138,7 @@ var App = { init: function() { App.HomepageHeight();           // helper script 
             setTimeout(function(){$('.content_anim15').addClass('animated fadeInUp')},800);
             setTimeout(function(){$('.content_anim16').addClass('animated fadeInUp')},1000);
         }, { offset: '50%' });
-        
+
         $('#reviews').waypoint(function() {
             setTimeout(function(){$('.content_anim17').addClass('animated fadeInUp')},0);
             setTimeout(function(){$('.content_anim18').addClass('animated fadeInUp')},200);
@@ -184,37 +154,37 @@ var App = { init: function() { App.HomepageHeight();           // helper script 
             setTimeout(function(){$('.content_anim25').addClass('animated fadeInUp')},0);
             setTimeout(function(){$('.content_anim26').addClass('animated fadeInUp')},200);
         }, { offset: '50%' });
-        
+
         $('#newsletter').waypoint(function() {
             setTimeout(function(){$('.content_anim27').addClass('animated fadeInUp')},0);
             setTimeout(function(){$('.content_anim28').addClass('animated fadeInUp')},200);
-        }, { offset: '50%' }); 
-        
+        }, { offset: '50%' });
+
         $('#contact').waypoint(function() {
             setTimeout(function(){$('.content_anim29').addClass('animated fadeInUp')},0);
             setTimeout(function(){$('.content_anim30').addClass('animated fadeInUp')},200);
-        }, { offset: '50%' });          
-        
+        }, { offset: '50%' });
+
     },
-    
-    
+
+
     // Nivo Lightbox
     Nivo_Lightbox: function() {
 	    $('.play a, .owl-carousel-screenshots a').nivoLightbox({
-		    effect: 'slideDown'    
-	    });	
+		    effect: 'slideDown'
+	    });
     },
-    
-    
+
+
     // Fit Vids
     Fit_Vids: function() {
-	    $("#video_modal_box").fitVids();	
+	    $("#video_modal_box").fitVids();
     },
-    
-    
+
+
     // Parallaxed Backgrounds
     Stellar: function() {
-    
+
     	// detecting if browser is mobile and disabling the video background, leaving only poster as bg.
 		if( navigator.userAgent.match(/Android/i)
 		|| navigator.userAgent.match(/webOS/i)
@@ -224,36 +194,36 @@ var App = { init: function() { App.HomepageHeight();           // helper script 
 		|| navigator.userAgent.match(/BlackBerry/i)
 		|| navigator.userAgent.match(/Windows Phone/i)
 		 ){} else {
-			 $(window).stellar({responsive: true});	 
-		 };    	
+			 $(window).stellar({responsive: true});
+		 };
     },
-    
+
     // Reviews Carousel
     Reviews: function() {
 	    $(".owl-carousel").owlCarousel({
 		    loop:true,
 		    singleItem : true,
-	    });	
+	    });
     },
-    
+
     // Screenshots Carousel
     Screenshots_Carousel: function() {
 	    $(".owl-carousel-screenshots").owlCarousel({
 			loop:true,
 		    items : 7,
-			itemsDesktop : [1200,7], 
-			itemsDesktopSmall : [900,6], 
-			itemsTablet: [600,4], 
-			itemsMobile : [400,2]     
-	    });	
-    },    
+			itemsDesktop : [1200,7],
+			itemsDesktopSmall : [900,6],
+			itemsTablet: [600,4],
+			itemsMobile : [400,2]
+	    });
+    },
 
 }
 
 $(function() {
   App.init();
   $(window).resize(App.HomepageHeight);
-    
+
 });
 
 })(jQuery);
