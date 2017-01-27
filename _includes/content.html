@@ -1,856 +1,836 @@
 <div id="st-container" class="st-container">
-    <nav class="st-menu left st-effect-4 scroll-pane">
-<!--[if IE 8]>
-<div class="menu-greyscale"></div><![endif]-->
-<div class="st-menu-inner">
-
-    <div class="menu-nav-inner">
-        <div class="menu-side-menu-container">
-            <ul id="menu-side-menu" class="menu">
-                <li class="menu-item  current_page_item">
-                    <a href="#about-us">About Me</a>
-                </li>
-                <li class=" menu-item"><a href="#recent-project">Recent Project</a>
-                </li>
-                <li class=" menu-item"><a href="#work-jajang">All Project</a>
-                </li>
-
-                <li class="menu-item"> <a href="#testimonials">Testimonials</a>
-                </li>
-                <li class="menu-item"><a href="#freebies">Freebies</a>
-            </ul>
-        </div>
-
-        <div class="social-links-center">
-            <ul class="social-links">
-                <li><a href="https://www.behance.net/izzi-tea" target="_blank"><span class="index green"><img src="/images/be_icon.png" alt="Behance"/></span></a></li>
-                <li><a href="https://id.linkedin.com/in/jajang-irawan-50b86bbb" target="_blank"><span class="index twit"><i class="fa fa-linkedin"></i></span></a></li>
-                <li><a href="https://twitter.com/Jajang_irawan" target="_blank"><span class="index twit"><i class="fa fa-twitter"></i></span></a></li>
-                <li><a href="mailto:izzi.bdg@gmail.com"><span class="index fb"><i class="fa fa-envelope-o"></i></span></a></li>
-
-            <div class="clear-float"></div>
-        </div>
-    </div>
-</div>
-</nav>        <!-- content push wrapper -->
-    <!--[if !IE]><!-->
-    <div class="st-pusher left">
-        <!--<![endif]-->
-        <!--[if IE]>
+  {% include sidebar.html %}
+  <!-- content push wrapper -->
+  <!--[if !IE]><!-->
+  <div class="st-pusher left">
+    <!--<![endif]-->
+    <!--[if IE]>
         <div class="st-pusher left st-pusher-ie"><![endif]-->
-        <div class="st-content"><!-- this is the wrapper for the content -->
-            <div class="st-content-inner entry-content">
-                <!-- extra div for emulating position:fixed of the menu -->
-                <!-- begin bottom-nav -->
-<div id="search-content" class="site-shade-content">
-<div class="site-shade-content-inner">
-    <form role="search" method="get" action="#">
-        <i class="fa fa-search search-icon-form"></i>
-        <input type="search" class="search-field"  name="s" autofocus>
-    </form>
-</div>
-</div>
+    <div class="st-content">
+      <!-- this is the wrapper for the content -->
+      <div class="st-content-inner entry-content">
+        <!-- extra div for emulating position:fixed of the menu -->
+        <!-- begin bottom-nav -->
+        <div id="search-content" class="site-shade-content">
+          <div class="site-shade-content-inner">
+            <form role="search" method="get" action="#">
+              <i class="fa fa-search search-icon-form"></i>
+              <input type="search" class="search-field" name="s" autofocus>
+            </form>
+          </div>
+        </div>
 
-<div id="search-shade" class="site-shade"></div>
+        <div id="search-shade" class="site-shade"></div>
 
-<div id="share-content" class="share-links-site">
-<a class="mail" href="#">
-    <i class="fa fa-envelope-o"></i>
-</a>
+        <div id="share-content" class="share-links-site">
+          <a class="mail" href="#">
+            <i class="fa fa-envelope-o"></i>
+          </a>
 
-<a class="goog" href="#" onclick="window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;">
-    <i class="fa fa-google-plus"></i>
-</a>
+          <a class="goog" href="#" onclick="window.open(this.href, &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;">
+            <i class="fa fa-google-plus"></i>
+          </a>
 
-<a class="twit" href="#" onclick="window.open(this.href,&#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600&#39;);return false;">
-    <i class="fa fa-twitter"></i>
-</a>
+          <a class="twit" href="#" onclick="window.open(this.href,&#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600&#39;);return false;">
+            <i class="fa fa-twitter"></i>
+          </a>
 
-<a class="fb" href="http://www.facebook.com/sharer.html?url=#" onclick="window.open(this.href,&#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&#39;);return false;">
-    <i class="fa fa-facebook"></i>
-</a>
-<div class="clear-float"></div>
-</div>
-<div id="share-shade" class="site-shade"></div>
-<div class="video-shade"></div>
-
-
-<div class="bottom-nav-short">
+          <a class="fb" href="http://www.facebook.com/sharer.html?url=#" onclick="window.open(this.href,&#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&#39;);return false;">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <div class="clear-float"></div>
+        </div>
+        <div id="share-shade" class="site-shade"></div>
+        <div class="video-shade"></div>
 
 
-<div class="menu-bars-bottom st-trigger-effects">
-    <div class="menu-close-dark"></div>
-    <button type="button" id="menu-nav-footer" class="navbar-toggle button-menu" data-effect="st-effect-4">
-        <span class="icon-bar dark"></span>
-        <span class="icon-bar dark"></span>
-        <span class="icon-bar dark"></span>
-    </button>
-</div>
-
-<div class="horiz-nav-bottom">
-    <ul class="menu bottom-menu">
-
-        <li class="menu-item"><a href="#about-us">About Us</a></li>
-        <li class="menu-item"><a href="#testimonials">Testimonials</a></li>
-        <li class="menu-item"><a href="#work-jajang">Work</a></li>
-        <li class="menu-item"><a href="#freebies">Freebies</a></li>
-        
-
-        <li class="footer-show menu-item">My resume (PDF)
-            <i class="footer-show-arrow fa fa-chevron-down" ></i>
-        </li>
-
-    </ul>
-    <ul class="menu mobile-bottom-menu">
-        <li class="menu-item search-prompt"><i class="fa fa-search"></i></li>
-        <li class="menu-item share-prompt"><i class="fa fa-share-alt"></i></li>
-        <li class="menu-item top-ani"><i class="fa fa-chevron-up"></i></li>
-        <li class="footer-show menu-item">
-            <i class="footer-show-arrow fa fa-chevron-down"></i>
-        </li>
-    </ul>
-</div>
-</div>
-<!-- .bottom-nav -->
-                <div class="po-portfolio-slider-profile">
-                    <ul class="po-portfolio-slider-loop">
-                        <li class='slider-slides white-content' >
-                            <div class="po-column menu-bars st-trigger-effects" data-delay="2200" data-animation="move-down-short">
-                                <div class="menu-close"></div>
-                                <button type="button" class="navbar-toggle button-menu" data-effect="st-effect-4">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
+        <div class="bottom-nav-short">
 
 
-                            <div class="background-greyscale"></div>
-                            <div class="slider-video" data-center="top: 0px;" data-bottom-top="top: 150px;" data-top-bottom="top: -150px;" data-anchor-target=".slider-video"></div>
-                            <!--[if !IE 8]><!-->
-                            <div class="home-slider-image homeslide-1" data-center="background-position: 50% -50px;"  data-bottom-top="background-position: 50% 150px;" data-top-bottom="background-position: 50% -150px;" data-anchor-target=".slider-slides"></div>
-                            <!--<![endif]-->
-                            <!--[if IE 8]>
+          <div class="menu-bars-bottom st-trigger-effects">
+            <div class="menu-close-dark"></div>
+            <button type="button" id="menu-nav-footer" class="navbar-toggle button-menu" data-effect="st-effect-4">
+              <span class="icon-bar dark"></span>
+              <span class="icon-bar dark"></span>
+              <span class="icon-bar dark"></span>
+            </button>
+          </div>
+
+          <div class="horiz-nav-bottom">
+            <ul class="menu bottom-menu">
+
+              <li class="menu-item"><a href="#about-us">About Us</a>
+              </li>
+              <li class="menu-item"><a href="#testimonials">Testimonials</a>
+              </li>
+              <li class="menu-item"><a href="#work-jajang">Work</a>
+              </li>
+              <li class="menu-item"><a href="#freebies">Freebies</a>
+              </li>
+
+
+              <li class="footer-show menu-item">My resume (PDF)
+                <i class="footer-show-arrow fa fa-chevron-down"></i>
+              </li>
+
+            </ul>
+            <ul class="menu mobile-bottom-menu">
+              <li class="menu-item search-prompt"><i class="fa fa-search"></i>
+              </li>
+              <li class="menu-item share-prompt"><i class="fa fa-share-alt"></i>
+              </li>
+              <li class="menu-item top-ani"><i class="fa fa-chevron-up"></i>
+              </li>
+              <li class="footer-show menu-item">
+                <i class="footer-show-arrow fa fa-chevron-down"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- .bottom-nav -->
+        <div class="po-portfolio-slider-profile">
+          <ul class="po-portfolio-slider-loop">
+            <li class='slider-slides white-content'>
+              <div class="po-column menu-bars st-trigger-effects" data-delay="2200" data-animation="move-down-short">
+                <div class="menu-close"></div>
+                <button type="button" class="navbar-toggle button-menu" data-effect="st-effect-4">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+
+
+              <div class="background-greyscale"></div>
+              <div class="slider-video" data-center="top: 0px;" data-bottom-top="top: 150px;" data-top-bottom="top: -150px;" data-anchor-target=".slider-video"></div>
+              <!--[if !IE 8]><!-->
+              <div class="home-slider-image homeslide-1" data-center="background-position: 50% -50px;" data-bottom-top="background-position: 50% 150px;" data-top-bottom="background-position: 50% -150px;" data-anchor-target=".slider-slides"></div>
+              <!--<![endif]-->
+              <!--[if IE 8]>
                             <img class="fullbackground" src="theme//images/1300-800.png" />
                             <![endif]-->
 
 
-                            <div class="slider-image-inner">
-                                <div class="po-slider-bottom-button po-column" data-delay="2700" data-animation="move-up-short">
-                                    <i class="fa fa-angle-down site-show"></i>
-                                </div>
-                                <div class="po-column slider-caption" data-delay="1700" data-animation="move-up-short">
-                                    <!-- hilang <h1 class="text-center">JAJANG IRAWAN</h1> -->
-                                    <div class="slider-subtitle text-center">
-                                        UI/UX Designer <span class="cat-sep"></span>
-                                        Motorcycle Enthusiast <span class="cat-sep"></span>
-                                        Coffe lovers
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-
-
-                    </ul>
+              <div class="slider-image-inner">
+                <div class="po-slider-bottom-button po-column" data-delay="2700" data-animation="move-up-short">
+                  <i class="fa fa-angle-down site-show"></i>
                 </div>
-                <!--end of slider-->
+                <div class="po-column slider-caption" data-delay="1700" data-animation="move-up-short">
+                  <!-- hilang <h1 class="text-center">JAJANG IRAWAN</h1> -->
+                  <div class="slider-subtitle text-center">
+                    UI/UX Designer <span class="cat-sep"></span> Motorcycle Enthusiast <span class="cat-sep"></span> Coffee lover
+                  </div>
+                </div>
+              </div>
+            </li>
 
-                <div class="top-page-anchor">
-                    <div class="arrow-container">
-                        <div class="arrow-container-inner">
-                            <div class="transparent-triangle-container">
-                                <table>
-                                    <tbody>
-                                    <tr>
-                                        <td class="transparent-triangle-left-white"></td>
-                                        <td class="transparent-triangle-left-triangle-container">
-                                            <div class="transparent-triangle-left-triangle"></div>
-                                        </td>
-                                        <td class="transparent-triangle-right-triangle-container">
-                                            <div class="transparent-triangle-right-triangle"></div>
-                                        </td>
-                                        <td class="transparent-triangle-right-white"></td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                                <div class="transparent-triangle-container-bottom-white"></div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="po-page po-blog">
-                        <div>
-                            <div>
-                                <div class="homepage">
-                                    <div class="po-section section-background-white">
-                                        <div class="ss-style-triangles"></div>
-                                        <a name="about-us"></a>
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="po-column col-sm-8 col-sm-offset-2" data-delay="400" data-animation="move-up-short">
-                                                    <div class="po-column po-header-top col-sm-12" data-delay="0" data-animation="fade-in">
-                                                        <h3 class="text-center standard-header">
+
+          </ul>
+        </div>
+        <!--end of slider-->
+
+        <div class="top-page-anchor">
+          <div class="arrow-container">
+            <div class="arrow-container-inner">
+              <div class="transparent-triangle-container">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td class="transparent-triangle-left-white"></td>
+                      <td class="transparent-triangle-left-triangle-container">
+                        <div class="transparent-triangle-left-triangle"></div>
+                      </td>
+                      <td class="transparent-triangle-right-triangle-container">
+                        <div class="transparent-triangle-right-triangle"></div>
+                      </td>
+                      <td class="transparent-triangle-right-white"></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="transparent-triangle-container-bottom-white"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="po-page po-blog">
+            <div>
+              <div>
+                <div class="homepage">
+                  <div class="po-section section-background-white">
+                    <div class="ss-style-triangles"></div>
+                    <a name="about-us"></a>
+                    <div class="container">
+                      <div class="row">
+                        <div class="po-column col-sm-8 col-sm-offset-2" data-delay="400" data-animation="move-up-short">
+                          <div class="po-column po-header-top col-sm-12" data-delay="0" data-animation="fade-in">
+                            <h3 class="text-center standard-header">
                                                             Hi!
                                                         </h3>
-                                                        <div class="header-line"></div>
-                                                    </div>
-                                                    <div class="clearfix"></div>
-                                                    <p class="textblock large-text" >
-                                                        <em>
+                            <div class="header-line"></div>
+                          </div>
+                          <div class="clearfix"></div>
+                          <p class="textblock large-text">
+                            <em>
                                                           My name is Jajang Irawan. I am UI & UX Designer for more than 3 years. I love coffee and Teh Tarik. I think a design means a lot to so many other things. First, good design will satisfy client. Then, an excellent design makes user easier to navigate the site. Moreover, satisfied users will bring more benefit to that site’s owner. All in all, a design can lead to huge success in so many ways, if it's done well.
                                                         </em>*
-                                                    </p>
-                                                    <br>
-                                                </div>
-                                                <div class="po-column col-sm-8 col-sm-offset-2" data-delay="600" data-animation="move-down-short">
-                                                    <!-- pict profile -->
+                          </p>
+                          <br>
+                        </div>
+                        <div class="po-column col-sm-8 col-sm-offset-2" data-delay="600" data-animation="move-down-short">
+                          <!-- pict profile -->
 
-                                                      <img class="aligncenter size-full" src="/images/jajang.png" alt="iphone_mini-2" >
+                          <img class="aligncenter size-full" src="/images/jajang.png" alt="iphone_mini-2">
 
-                                                    <br>
-                                                </div>
-                                                <div class="po-column col-sm-8 col-sm-offset-2 padding" data-delay="1000" data-animation="move-up-short">
-                                                    <div class="col-sm-2 col-sm-offset-5">
-                                                        <div class="scroll-arrow goto-arrow" data-scroll="values">
-                                                            <i class="fa fa-angle-down"></i>
-                                                        </div>
-                                                    </div>
-                                                    <br>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                          <br>
+                        </div>
+                        <div class="po-column col-sm-8 col-sm-offset-2 padding" data-delay="1000" data-animation="move-up-short">
+                          <div class="col-sm-2 col-sm-offset-5">
+                            <div class="scroll-arrow goto-arrow" data-scroll="values">
+                              <i class="fa fa-angle-down"></i>
+                            </div>
+                          </div>
+                          <br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-                                    <!--bof value-->
+                  <!--bof value-->
 
-                                    <!--end of file-->
+                  <!--end of file-->
 
-                                    <!--bof video-->
-                                    <div id="count" class="po-section section-image section-background-image-parallax section- skrollable skrollable-before"
-                                         data-center="background-position: 50% 0px;"
-                                         data-bottom-top="background-position: 50% 150px;"
-                                         data-top-bottom="background-position: 50% -150px;"
-                                         data-anchor-target="#count">
-                                        <div class="ss-style-triangles"></div>
-                                        <div class="section-video-content">
-                                        <a name="recent-project"></a>
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div class="po-column col-sm-8 col-sm-offset-2" data-delay="400" data-animation="move-up-short">
-                                                        <div class="po-column po-header-top col-sm-12" data-delay="0" data-animation="fade-in">
-                                                            <h3 class="text-center standard-header text-black">
+                  <!--bof video-->
+                  <div id="count" class="po-section section-image section-background-image-parallax section- skrollable skrollable-before" data-center="background-position: 50% 0px;" data-bottom-top="background-position: 50% 150px;" data-top-bottom="background-position: 50% -150px;" data-anchor-target="#count">
+                    <div class="ss-style-triangles"></div>
+                    <div class="section-video-content">
+                      <a name="recent-project"></a>
+                      <div class="container">
+                        <div class="row">
+                          <div class="po-column col-sm-8 col-sm-offset-2" data-delay="400" data-animation="move-up-short">
+                            <div class="po-column po-header-top col-sm-12" data-delay="0" data-animation="fade-in">
+                              <h3 class="text-center standard-header text-black">
                                                                 Recent project
                                                             </h3>
 
-                                                            <div class="header-line"></div>
-                                                        </div>
-                                                        <div class="clearfix"></div>
-                                                        <p class="textblock" style="font-size:30px !important;">
-                                                            <em>"myBookmark" Mobile APP UI design for bookmark</em>
-                                                        </p><br>
-                                                    </div>
-                                                    <div class="po-column col-sm-6 col-sm-offset-3" data-delay="600" data-animation="move-down-short">
-                                                        <div class="po-column col-md-6 col-md-offset-0"  data-animation="fade-in">
-                                                            <div class="row po-full-width">
-                                                                <div class="po-column col-sm-12" data-delay="0" data-animation="fade-in">
-                                                                    <a href="https://www.behance.net/gallery/31478615/myBookmark-Mobile-APP-UI-design-for-bookmark" target="_blank" class="btn outline-button dark btn-lg btn-block text-black">
+                              <div class="header-line"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <p class="textblock" style="font-size:30px !important;">
+                              <em>"myBookmark" Mobile APP UI design for bookmark</em>
+                            </p>
+                            <br>
+                          </div>
+                          <div class="po-column col-sm-6 col-sm-offset-3" data-delay="600" data-animation="move-down-short">
+                            <div class="po-column col-md-6 col-md-offset-0" data-animation="fade-in">
+                              <div class="row po-full-width">
+                                <div class="po-column col-sm-12" data-delay="0" data-animation="fade-in">
+                                  <a href="https://www.behance.net/gallery/31478615/myBookmark-Mobile-APP-UI-design-for-bookmark" target="_blank" class="btn outline-button dark btn-lg btn-block text-black">
                                                                         View project
                                                                     </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="po-column col-md-6 col-md-offset-0"  data-animation="fade-in">
-                                                            <div class="row po-full-width">
-                                                                <div class="po-column col-sm-12" data-delay="0" data-animation="fade-in">
-                                                                    <a href="https://www.behance.net/gallery/31478615/myBookmark-Mobile-APP-UI-design-for-bookmark" target="_blank" class="btn outline-button dark btn-lg btn-block text-black">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="po-column col-md-6 col-md-offset-0" data-animation="fade-in">
+                              <div class="row po-full-width">
+                                <div class="po-column col-sm-12" data-delay="0" data-animation="fade-in">
+                                  <a href="https://www.behance.net/gallery/31478615/myBookmark-Mobile-APP-UI-design-for-bookmark" target="_blank" class="btn outline-button dark btn-lg btn-block text-black">
                                                                         See Project on Behance                                                                        </a>
 
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="po-column col-sm-8 col-sm-offset-2 arrow-short" data-delay="1000" data-animation="move-up-short">
-                                                        <div class="col-sm-2 col-sm-offset-5" >
-                                                            <div class="scroll-arrow goto-arrow" data-scroll="numbers">
-                                                                <i class="fa fa-angle-down"></i>
-                                                            </div>
-                                                        </div>
-                                                        <br>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="po-column col-sm-8 col-sm-offset-2 arrow-short" data-delay="1000" data-animation="move-up-short">
+                            <div class="col-sm-2 col-sm-offset-5">
+                              <div class="scroll-arrow goto-arrow" data-scroll="numbers">
+                                <i class="fa fa-angle-down"></i>
+                              </div>
+                            </div>
+                            <br>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-                                        <!-- video background -->
-
-
-                                        <!-- bottom ornamen putih -->
-                                        <div class="transparent-triangle-container">
-                                            <table>
-                                                <tbody>
-                                                <tr>
-                                                    <td class="transparent-triangle-left-white"></td>
-                                                    <td class="transparent-triangle-left-triangle-container">
-                                                        <div class="transparent-triangle-left-triangle"></div>
-                                                    </td>
-                                                    <td class="transparent-triangle-right-triangle-container">
-                                                        <div class="transparent-triangle-right-triangle"></div>
-                                                    </td>
-                                                    <td class="transparent-triangle-right-white"></td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                            <div class="transparent-triangle-container-bottom-white"></div>
-                                        </div>
+                    <!-- video background -->
 
 
-                                    </div>
-                                    <!--end of female-->
+                    <!-- bottom ornamen putih -->
+                    <div class="transparent-triangle-container">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td class="transparent-triangle-left-white"></td>
+                            <td class="transparent-triangle-left-triangle-container">
+                              <div class="transparent-triangle-left-triangle"></div>
+                            </td>
+                            <td class="transparent-triangle-right-triangle-container">
+                              <div class="transparent-triangle-right-triangle"></div>
+                            </td>
+                            <td class="transparent-triangle-right-white"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="transparent-triangle-container-bottom-white"></div>
+                    </div>
 
-                                    <!--bof numbers-->
-                                    <div id="numbers" class="po-section section-background-custom-white">
-                                        <div class="container">
 
-                                            <div class="row po-full-width">
-                                            <a name="testimonials"></a>
-                                            <div class="po-column col-sm-12" data-delay="400" data-animation="move-up-short">
+                  </div>
+                  <!--end of female-->
 
-                                               <h3 class="text-center standard-header">
+                  <!--bof numbers-->
+                  <div id="numbers" class="po-section section-background-custom-white">
+                    <div class="container">
+
+                      <div class="row po-full-width">
+                        <a name="testimonials"></a>
+                        <div class="po-column col-sm-12" data-delay="400" data-animation="move-up-short">
+
+                          <h3 class="text-center standard-header">
                                                     Testimonials from client
                                                   </h3>
 
-                                                <div class="header-line"></div>
+                          <div class="header-line"></div>
 
-                                                <div class="po-testimonials" >
-                                                    <ul class="po-test-slide text-center" style="margin-left:-40px; position:absolute; z-index:100;">
-                                                        <li><div class="upwork_client"><img src="/images/client/Cameron-Norgate.png"></div>
+                          <div class="po-testimonials">
+                            <ul class="po-test-slide text-center" style="margin-left:-40px; position:absolute; z-index:100;">
+                              <li>
+                                <div class="upwork_client"><img src="/images/client/Cameron-Norgate.png">
+                                </div>
 
-                                                            <div class="test-text"><p>Jajang did a nice job in helping us build our UI - HTML, CSS & Javascript / jquery provided us with a great customer experience. Thanks.</p>
-                                                            </div>
-                                                                                                                            <p class="test-person">Cameron Norgate via <a href="https://www.upwork.com/freelancers/~01df55d39b9d6903d7" target="_blank">upwork.com</a></p><div class="upwork_client"></div>
-
-
-                                                        </li>
-                                                        <li><div class="upwork_client"><img src="/images/client/Michael_Velasquez.png"></div>
-                                                            <div class="test-text text-center"><p>Jajang was fantastic to work with. He's a very good designer and always made sure I was taken care off. Despite my many changes that i'm sure drove him crazy, Jajang went above and beyond to make sure I was satisfied. Excellent communication with Jajang and an overall wonderful experience. Will hire again!</p>
-                                                            </div>
-
-                                                            <p class="test-person text-center">Michael Velasquez via <a href="https://www.upwork.com/freelancers/~01df55d39b9d6903d7" target="_blank">upwork.com</a></p><div class="upwork_client"></div>
-                                                        </li>
-                                                        <li><div class="upwork_client"><img src="/images/client/Andrew_Gazdecki.png"></div>
-                                                            <div class="test-text text-center"><p>Jajang is an absolute pleasure to work with. His creativity, quality of work, and ability to meet deadlines is way above average. He is virtually a jack of all trades. Thanks so much Jajang!</p>
-                                                            </div>
-
-                                                            <p class="test-person text-center">Andrew Gazdecki via <a href="https://www.upwork.com/freelancers/~01df55d39b9d6903d7" target="_blank">upwork.com</a></p><div class="upwork_client"></div></li>
-                                                        <li><div class="upwork_client"><img src="/images/client/Wilneida_Negron.png"></div>
-                                                            <div class="test-text text-center"><p>Jajang worked with a very tight deadline I had and delivered excellent work. He was patient and easy to work with and his design and prototyping skills are above average. I was very pleased. I will certainly use him again for future website work.</p>
-                                                            </div>
-
-                                                            <p class="test-person text-center">Wilneida Negron via <a href="https://www.upwork.com/freelancers/~01df55d39b9d6903d7" target="_blank">upwork.com</a></p><div class="upwork_client"></div></li>
+                                <div class="test-text">
+                                  <p>Jajang did a nice job in helping us build our UI - HTML, CSS & Javascript / jquery provided us with a great customer experience. Thanks.</p>
+                                </div>
+                                <p class="test-person">Cameron Norgate via <a href="https://www.upwork.com/freelancers/~01df55d39b9d6903d7" target="_blank">upwork.com</a>
+                                </p>
+                                <div class="upwork_client"></div>
 
 
+                              </li>
+                              <li>
+                                <div class="upwork_client"><img src="/images/client/Michael_Velasquez.png">
+                                </div>
+                                <div class="test-text text-center">
+                                  <p>Jajang was fantastic to work with. He's a very good designer and always made sure I was taken care off. Despite my many changes that i'm sure drove him crazy, Jajang went above and beyond to make sure I was satisfied. Excellent communication with Jajang and an overall wonderful experience. Will hire again!</p>
+                                </div>
+
+                                <p class="test-person text-center">Michael Velasquez via <a href="https://www.upwork.com/freelancers/~01df55d39b9d6903d7" target="_blank">upwork.com</a>
+                                </p>
+                                <div class="upwork_client"></div>
+                              </li>
+                              <li>
+                                <div class="upwork_client"><img src="/images/client/Andrew_Gazdecki.png">
+                                </div>
+                                <div class="test-text text-center">
+                                  <p>Jajang is an absolute pleasure to work with. His creativity, quality of work, and ability to meet deadlines is way above average. He is virtually a jack of all trades. Thanks so much Jajang!</p>
+                                </div>
+
+                                <p class="test-person text-center">Andrew Gazdecki via <a href="https://www.upwork.com/freelancers/~01df55d39b9d6903d7" target="_blank">upwork.com</a>
+                                </p>
+                                <div class="upwork_client"></div>
+                              </li>
+                              <li>
+                                <div class="upwork_client"><img src="/images/client/Wilneida_Negron.png">
+                                </div>
+                                <div class="test-text text-center">
+                                  <p>Jajang worked with a very tight deadline I had and delivered excellent work. He was patient and easy to work with and his design and prototyping skills are above average. I was very pleased. I will certainly use him again for future website work.</p>
+                                </div>
+
+                                <p class="test-person text-center">Wilneida Negron via <a href="https://www.upwork.com/freelancers/~01df55d39b9d6903d7" target="_blank">upwork.com</a>
+                                </p>
+                                <div class="upwork_client"></div>
+                              </li>
 
 
 
-                                                    </ul>
+
+
+                            </ul>
 
 
 
-                                                </div>
-                                                <div class="clear-float"></div>
-                                            </div>
+                          </div>
+                          <div class="clear-float"></div>
+                        </div>
 
-                                        </div>
-                                    </div>
+                      </div>
+                    </div>
 
-                                    <div class="upwork_client"></div>
-                                    <div class="upwork_client"></div>
-                                    <div class="upwork_client"></div>
+                    <div class="upwork_client"></div>
+                    <div class="upwork_client"></div>
+                    <div class="upwork_client"></div>
 
-                                    <!-- end of number-->
+                    <!-- end of number-->
 
-                                    <!-- bof of projects-->
-                                    <div id="projects" class="po-section section-background-custom-white">
-                                        <div class="ss-style-triangles" ></div>
-                                        <a name="work-jajang"></a>
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="po-column col-sm-8 col-sm-offset-2" data-delay="400" data-animation="move-up-short">
-                                                    <div class="po-column po-header-top col-sm-12" data-delay="0" data-animation="fade-in">
-                                                        <h3 class="text-center standard-header">
+                    <!-- bof of projects-->
+                    <div id="projects" class="po-section section-background-custom-white">
+                      <div class="ss-style-triangles"></div>
+                      <a name="work-jajang"></a>
+                      <div class="container">
+                        <div class="row">
+                          <div class="po-column col-sm-8 col-sm-offset-2" data-delay="400" data-animation="move-up-short">
+                            <div class="po-column po-header-top col-sm-12" data-delay="0" data-animation="fade-in">
+                              <h3 class="text-center standard-header">
                                                             Recent work
                                                         </h3>
-                                                        <div class="header-line"></div>
-                                                    </div>
-                                                    <div class="clearfix"></div>
-                                                </div>
+                              <div class="header-line"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                          </div>
 
-                                                <div class="row po-full-width portfolio-item-effect-2">
-                                                    <a href="https://www.behance.net/gallery/31478615/myBookmark-Mobile-APP-UI-design-for-bookmark" target="_blank" class="po-column col-sm-4 port-cont no-padding-port fade-in-port" data-delay="0" data-animation="fade-in-port">
-                                                        <!--[if !IE 8]><!-->
-                                                        <figure class="effect-chico">
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
+                          <div class="row po-full-width portfolio-item-effect-2">
+                            <a href="https://www.behance.net/gallery/31478615/myBookmark-Mobile-APP-UI-design-for-bookmark" target="_blank" class="po-column col-sm-4 port-cont no-padding-port fade-in-port" data-delay="0" data-animation="fade-in-port">
+                              <!--[if !IE 8]><!-->
+                              <figure class="effect-chico">
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
                                                             <div class="figure-ie effect-chico">
                                                             <![endif]-->
 
-                                                            <div class="port-img biker_fig" ></div>
-                                                            <!--[if !IE 8]><!-->
-                                                            <figcaption>
-                                                                <!--<![endif]-->
-                                                                <!--[if IE 8]>
+                                <div class="port-img biker_fig"></div>
+                                <!--[if !IE 8]><!-->
+                                <figcaption>
+                                  <!--<![endif]-->
+                                  <!--[if IE 8]>
                                                                 <div class="figcaption-ie">
                                                                 <![endif]-->
-                                                                <h2>"myBookmark" Mobile APP UI design for bookmark</h2>
-                                                                <!--[if !IE 8]><!-->
-                                                            </figcaption>
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
+                                  <h2>"myBookmark" Mobile APP UI design for bookmark</h2>
+                                  <!--[if !IE 8]><!-->
+                                </figcaption>
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
                                                             </div>
                                                             <![endif]-->
-                                                            <!--[if !IE 8]><!-->
-                                                        </figure>
-                                                        <!--<![endif]-->
-                                                        <!--[if IE 8]>
+                                <!--[if !IE 8]><!-->
+                              </figure>
+                              <!--<![endif]-->
+                              <!--[if IE 8]>
                                                         </div>
                                                         <![endif]-->
-                                                    </a>
+                            </a>
 
-                                                    <a href="https://www.behance.net/gallery/31267619/FREE-Restaurant-Food-UI-KIT-Tuank-Sketch"  target="_blank" class="po-column col-sm-4 port-cont no-padding-port fade-in-port"  data-animation="fade-in-port">
-                                                        <!--[if !IE 8]><!-->
-                                                        <figure class="effect-chico">
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
+                            <a href="https://www.behance.net/gallery/31267619/FREE-Restaurant-Food-UI-KIT-Tuank-Sketch" target="_blank" class="po-column col-sm-4 port-cont no-padding-port fade-in-port" data-animation="fade-in-port">
+                              <!--[if !IE 8]><!-->
+                              <figure class="effect-chico">
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
                                                             <div class="figure-ie effect-chico">
                                                             <![endif]-->
-                                                            <div class="port-img alpha_fig" ></div>
-                                                            <!--[if !IE 8]><!-->
-                                                            <figcaption>
-                                                                <!--<![endif]-->
-                                                                <!--[if IE 8]>
+                                <div class="port-img alpha_fig"></div>
+                                <!--[if !IE 8]><!-->
+                                <figcaption>
+                                  <!--<![endif]-->
+                                  <!--[if IE 8]>
                                                                 <div class="figcaption-ie">
                                                                 <![endif]-->
-                                                                <h2>FREE Restaurant & Food UI KIT - Tuank - .Sketch</h2>
-                                                                <!--[if !IE 8]><!-->
-                                                            </figcaption>
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
+                                  <h2>FREE Restaurant & Food UI KIT - Tuank - .Sketch</h2>
+                                  <!--[if !IE 8]><!-->
+                                </figcaption>
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
                                                             </div>
                                                             <![endif]-->
 
-                                                            <!--[if !IE 8]><!-->
-                                                        </figure>
-                                                        <!--<![endif]-->
-                                                        <!--[if IE 8]>
+                                <!--[if !IE 8]><!-->
+                              </figure>
+                              <!--<![endif]-->
+                              <!--[if IE 8]>
                                                         </div>
                                                         <![endif]-->
-                                                    </a>
-                                                    <a href="https://www.behance.net/gallery/29565863/Web-App-Daily-Expense" target="_blank" class="po-column col-sm-4 port-cont no-padding-port fade-in-port"  data-animation="fade-in-port">
-                                                        <!--[if !IE 8]><!-->
-                                                        <figure class="effect-chico">
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
-                                                            <div class="figure-ie effect-chico">
-                                                            <![endif]-->
-
-                                                            <div class="port-img hanging_fig"></div>
-                                                            <!--[if !IE 8]><!-->
-                                                            <figcaption>
-                                                                <!--<![endif]-->
-                                                                <!--[if IE 8]>
-                                                                <div class="figcaption-ie">
-                                                                <![endif]-->
-                                                                <h2>Web App "Daily Expense"</h2>
-                                                                <!--[if !IE 8]><!-->
-                                                            </figcaption>
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
-                                                            </div>
-                                                            <![endif]-->
-
-                                                            <!--[if !IE 8]><!-->
-                                                        </figure>
-                                                        <!--<![endif]-->
-                                                        <!--[if IE 8]>
-                                                        </div>
-                                                        <![endif]-->
-                                                    </a>
-
-
-                                                    <a href="https://www.behance.net/gallery/31862367/FREE-PSD-MOVIE-TEMPLATE-Everest" target="_blank"
-                                                       class="po-column col-sm-4 port-cont no-padding-port fade-in-port"
-                                                       data-delay="0" data-animation="fade-in-port">
-                                                        <!--[if !IE 8]><!-->
-                                                        <figure class="effect-chico">
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
+                            </a>
+                            <a href="https://www.behance.net/gallery/29565863/Web-App-Daily-Expense" target="_blank" class="po-column col-sm-4 port-cont no-padding-port fade-in-port" data-animation="fade-in-port">
+                              <!--[if !IE 8]><!-->
+                              <figure class="effect-chico">
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
                                                             <div class="figure-ie effect-chico">
                                                             <![endif]-->
 
-                                                            <div class="port-img rush_fig"></div>
-                                                            <!--[if !IE 8]><!-->
-                                                            <figcaption>
-                                                                <!--<![endif]-->
-                                                                <!--[if IE 8]>
+                                <div class="port-img hanging_fig"></div>
+                                <!--[if !IE 8]><!-->
+                                <figcaption>
+                                  <!--<![endif]-->
+                                  <!--[if IE 8]>
                                                                 <div class="figcaption-ie">
                                                                 <![endif]-->
-                                                                <h2>FREE PSD MOVIE TEMPLATE "Everest"</h2>
-                                                                <!--[if !IE 8]><!-->
-                                                            </figcaption>
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
+                                  <h2>Web App "Daily Expense"</h2>
+                                  <!--[if !IE 8]><!-->
+                                </figcaption>
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
                                                             </div>
                                                             <![endif]-->
 
-                                                            <!--[if !IE 8]><!-->
-                                                        </figure>
-                                                        <!--<![endif]-->
-                                                        <!--[if IE 8]>
+                                <!--[if !IE 8]><!-->
+                              </figure>
+                              <!--<![endif]-->
+                              <!--[if IE 8]>
                                                         </div>
                                                         <![endif]-->
-                                                    </a>
+                            </a>
 
 
-                                                    <a href="https://www.behance.net/gallery/34146783/FREE-UI-Daily-Report-sketch-file" target="_blank"
-                                                       class="po-column col-sm-4 port-cont no-padding-port"
-                                                       data-delay="0" data-animation="fade-in-port">
-                                                        <!--[if !IE 8]><!-->
-                                                        <figure class="effect-chico">
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
+                            <a href="https://www.behance.net/gallery/31862367/FREE-PSD-MOVIE-TEMPLATE-Everest" target="_blank" class="po-column col-sm-4 port-cont no-padding-port fade-in-port" data-delay="0" data-animation="fade-in-port">
+                              <!--[if !IE 8]><!-->
+                              <figure class="effect-chico">
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
                                                             <div class="figure-ie effect-chico">
                                                             <![endif]-->
-                                                            <div class="port-img buffalo_fig"></div>
-                                                            <!--[if !IE 8]><!-->
-                                                            <figcaption>
-                                                                <!--<![endif]-->
-                                                                <!--[if IE 8]>
+
+                                <div class="port-img rush_fig"></div>
+                                <!--[if !IE 8]><!-->
+                                <figcaption>
+                                  <!--<![endif]-->
+                                  <!--[if IE 8]>
                                                                 <div class="figcaption-ie">
                                                                 <![endif]-->
-                                                                <h2>FREE UI "Daily Report" .sketch file</h2>
-                                                                <!--[if !IE 8]><!-->
-                                                            </figcaption>
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
+                                  <h2>FREE PSD MOVIE TEMPLATE "Everest"</h2>
+                                  <!--[if !IE 8]><!-->
+                                </figcaption>
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
                                                             </div>
                                                             <![endif]-->
 
-                                                            <!--[if !IE 8]><!-->
-                                                        </figure>
-                                                        <!--<![endif]-->
-                                                        <!--[if IE 8]>
+                                <!--[if !IE 8]><!-->
+                              </figure>
+                              <!--<![endif]-->
+                              <!--[if IE 8]>
                                                         </div>
                                                         <![endif]-->
-                                                    </a>
+                            </a>
 
 
-                                                    <a href="https://www.behance.net/gallery/28555749/Daily-Expense-Concept-UIUX-Finance-mobile-APP-Design" target="_blank" class="po-column col-sm-4 port-cont no-padding-port"  data-animation="fade-in-port">
-                                                        <!--[if !IE 8]><!-->
-                                                        <figure class="effect-chico">
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
+                            <a href="https://www.behance.net/gallery/34146783/FREE-UI-Daily-Report-sketch-file" target="_blank" class="po-column col-sm-4 port-cont no-padding-port" data-delay="0" data-animation="fade-in-port">
+                              <!--[if !IE 8]><!-->
+                              <figure class="effect-chico">
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
                                                             <div class="figure-ie effect-chico">
                                                             <![endif]-->
-                                                            <div class="port-img tramp_fig"></div>
-                                                            <!--[if !IE 8]><!-->
-                                                            <figcaption>
-                                                                <!--<![endif]-->
-                                                                <!--[if IE 8]>
+                                <div class="port-img buffalo_fig"></div>
+                                <!--[if !IE 8]><!-->
+                                <figcaption>
+                                  <!--<![endif]-->
+                                  <!--[if IE 8]>
                                                                 <div class="figcaption-ie">
                                                                 <![endif]-->
-                                                                <h2>"Daily Expense" Concept UI/UX Finance mobile APP Design</h2>
-                                                                <!--[if !IE 8]><!-->
-                                                            </figcaption>
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
+                                  <h2>FREE UI "Daily Report" .sketch file</h2>
+                                  <!--[if !IE 8]><!-->
+                                </figcaption>
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
                                                             </div>
                                                             <![endif]-->
-                                                            <!--[if !IE 8]><!-->
-                                                        </figure>
-                                                        <!--<![endif]-->
-                                                        <!--[if IE 8]>
+
+                                <!--[if !IE 8]><!-->
+                              </figure>
+                              <!--<![endif]-->
+                              <!--[if IE 8]>
                                                         </div>
                                                         <![endif]-->
-                                                    </a>
+                            </a>
 
-                                                </div>
-                                                <div class="clearfix"></div>
-                        <div class="po-column col-sm-6 col-sm-offset-3" data-delay="600" data-animation="move-down-short">
-                                                  <div class="po-column col-md-6 col-md-offset-0"  data-animation="fade-in">
-                                                            <div class="row po-full-width">
-                                                                <div class="po-column col-sm-12" data-delay="0" data-animation="fade-in">
-                                                                    <a href="https://www.behance.net/izzi-tea" target="_blank" class="btn outline-button light btn-lg btn-block ">
+
+                            <a href="https://www.behance.net/gallery/28555749/Daily-Expense-Concept-UIUX-Finance-mobile-APP-Design" target="_blank" class="po-column col-sm-4 port-cont no-padding-port" data-animation="fade-in-port">
+                              <!--[if !IE 8]><!-->
+                              <figure class="effect-chico">
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
+                                                            <div class="figure-ie effect-chico">
+                                                            <![endif]-->
+                                <div class="port-img tramp_fig"></div>
+                                <!--[if !IE 8]><!-->
+                                <figcaption>
+                                  <!--<![endif]-->
+                                  <!--[if IE 8]>
+                                                                <div class="figcaption-ie">
+                                                                <![endif]-->
+                                  <h2>"Daily Expense" Concept UI/UX Finance mobile APP Design</h2>
+                                  <!--[if !IE 8]><!-->
+                                </figcaption>
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
+                                                            </div>
+                                                            <![endif]-->
+                                <!--[if !IE 8]><!-->
+                              </figure>
+                              <!--<![endif]-->
+                              <!--[if IE 8]>
+                                                        </div>
+                                                        <![endif]-->
+                            </a>
+
+                          </div>
+                          <div class="clearfix"></div>
+                          <div class="po-column col-sm-6 col-sm-offset-3" data-delay="600" data-animation="move-down-short">
+                            <div class="po-column col-md-6 col-md-offset-0" data-animation="fade-in">
+                              <div class="row po-full-width">
+                                <div class="po-column col-sm-12" data-delay="0" data-animation="fade-in">
+                                  <a href="https://www.behance.net/izzi-tea" target="_blank" class="btn outline-button light btn-lg btn-block ">
                                                                         View all project
                                                                     </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="po-column col-md-6 col-md-offset-0"  data-animation="fade-in">
-                                                            <div class="row po-full-width">
-                                                              <a href="https://www.behance.net/izzi-tea" target="_blank">
-                                                                <div class="po-column col-sm-12" data-delay="0" data-animation="fade-in">
-                                                                    <div class="btn outline-button light btn-lg btn-block scroll-arrow " data-scroll="projects">
-                                                                        See all project on <img src="/images/be_icon2.png" alt="Behance">
-                                                                    </div>
-
-                                                                </div>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                        </div>
-
-                                            </div>
-
-                                        </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="po-column col-md-6 col-md-offset-0" data-animation="fade-in">
+                              <div class="row po-full-width">
+                                <a href="https://www.behance.net/izzi-tea" target="_blank">
+                                  <div class="po-column col-sm-12" data-delay="0" data-animation="fade-in">
+                                    <div class="btn outline-button light btn-lg btn-block scroll-arrow " data-scroll="projects">
+                                      See all project on <img src="/images/be_icon2.png" alt="Behance">
                                     </div>
 
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
 
 
 
 
 
-
-
-                                    <div id="recent" class="po-section section-background-white">
-                                        <div class="ss-style-triangles"></div>
-                                        <!-- freebies -->
-                                        <a name="freebies"></a>
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="po-column po-header-top col-sm-12" data-delay="0" data-animation="fade-in">
-                                                    <h3 class="text-center standard-header text-black">
-                                                        LATERST FREEBIES
+                    <div id="recent" class="po-section section-background-white">
+                      <div class="ss-style-triangles"></div>
+                      <!-- freebies -->
+                      <a name="freebies"></a>
+                      <div class="container">
+                        <div class="row">
+                          <div class="po-column po-header-top col-sm-12" data-delay="0" data-animation="fade-in">
+                            <h3 class="text-center standard-header text-black">
+                                                        LATEST FREEBIES
                                                     </h3>
 
-                                                    <div class="header-line"></div>
-                                                </div>
-                                                <div class="clearfix"></div>
+                            <div class="header-line"></div>
+                          </div>
+                          <div class="clearfix"></div>
 
 
-                                                <div class="po-blog blog-po">
-                                                    <div class="po-column col-sm-4 blog-item padding"  data-delay="1000" data-animation="move-up-short">
-                                                        <!--[if !IE 8]><!-->
-                                                        <article class="po-article portfolio-item-effect-4">
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
+                          <div class="po-blog blog-po">
+                            <div class="po-column col-sm-4 blog-item padding" data-delay="1000" data-animation="move-up-short">
+                              <!--[if !IE 8]><!-->
+                              <article class="po-article portfolio-item-effect-4">
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
                                                             <div class="po-article portfolio-item-effect-4">
                                                             <![endif]-->
-                                                            <a class="po-column no-padding grid"
-                                                               href="https://www.behance.net/gallery/31267619/FREE-Restaurant-Food-UI-KIT-Tuank-Sketch" target="_blank"
-                                                               data-delay="100" data-animation="fade-in-port">
+                                <a class="po-column no-padding grid" href="https://www.behance.net/gallery/31267619/FREE-Restaurant-Food-UI-KIT-Tuank-Sketch" target="_blank" data-delay="100" data-animation="fade-in-port">
 
-                                                                <!--[if !IE 8]><!-->
-                                                                <figure class="effect-chico">
-                                                                    <!--<![endif]-->
-                                                                    <!--[if IE 8]>
+                                  <!--[if !IE 8]><!-->
+                                  <figure class="effect-chico">
+                                    <!--<![endif]-->
+                                    <!--[if IE 8]>
                                                                     <div class="figure-ie effect-chico">
                                                                     <![endif]-->
 
-                                                                    <div class="port-img saturday_fig"></div>
-                                                                    <!--[if !IE 8]><!-->
-                                                                    <figcaption>
-                                                                        <!--<![endif]-->
-                                                                        <!--[if IE 8]>
+                                    <div class="port-img saturday_fig"></div>
+                                    <!--[if !IE 8]><!-->
+                                    <figcaption>
+                                      <!--<![endif]-->
+                                      <!--[if IE 8]>
                                                                         <div class="figcaption-ie">
                                                                         <![endif]-->
-                                                                        <h2 class="text-center">FREE Restaurant & Food UI KIT - Tuank - .Sketch</h2>
+                                      <h2 class="text-center">FREE Restaurant & Food UI KIT - Tuank - .Sketch</h2>
 
 
-                                                                        <!--[if !IE 8]><!-->
-                                                                    </figcaption>
-                                                                    <!--<![endif]-->
-                                                                    <!--[if IE 8]>
+                                      <!--[if !IE 8]><!-->
+                                    </figcaption>
+                                    <!--<![endif]-->
+                                    <!--[if IE 8]>
                                                                     </div>
                                                                     <![endif]-->
-                                                                    <!--[if !IE 8]><!-->
-                                                                </figure>
-                                                                <!--<![endif]-->
-                                                                <!--[if IE 8]>
+                                    <!--[if !IE 8]><!-->
+                                  </figure>
+                                  <!--<![endif]-->
+                                  <!--[if IE 8]>
                                                                 </div>
                                                                 <![endif]-->
-                                                            </a>
+                                </a>
 
 
-                                                            <!--[if !IE 8]><!-->
-                                                        </article>
-                                                        <!-- #post-## -->
-                                                        <!--<![endif]-->
-                                                        <!--[if IE 8]>
+                                <!--[if !IE 8]><!-->
+                              </article>
+                              <!-- #post-## -->
+                              <!--<![endif]-->
+                              <!--[if IE 8]>
                                                         </div>
                                                         <![endif]-->
-                                                    </div>
+                            </div>
 
 
-                                                    <div class="po-column col-sm-4 blog-item padding" data-animation="move-up-short">
-                                                        <!--[if !IE 8]><!-->
-                                                        <article class="po-article portfolio-item-effect-4">
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
+                            <div class="po-column col-sm-4 blog-item padding" data-animation="move-up-short">
+                              <!--[if !IE 8]><!-->
+                              <article class="po-article portfolio-item-effect-4">
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
                                                             <div  class="po-article portfolio-item-effect-4">
                                                             <![endif]-->
-                                                            <a class="po-column no-padding grid" href="https://www.behance.net/gallery/29058153/FREE-CLEAN-MOBILE-APP-LANDING-PAGE-ceXas" target="_blank"
-                                                               data-delay="100" data-animation="fade-in-port">
-                                                                <!--[if !IE 8]><!-->
-                                                                <figure class="effect-chico"
-                                                                    >
-                                                                    <!--<![endif]-->
-                                                                    <!--[if IE 8]>
+                                <a class="po-column no-padding grid" href="https://www.behance.net/gallery/29058153/FREE-CLEAN-MOBILE-APP-LANDING-PAGE-ceXas" target="_blank" data-delay="100" data-animation="fade-in-port">
+                                  <!--[if !IE 8]><!-->
+                                  <figure class="effect-chico">
+                                    <!--<![endif]-->
+                                    <!--[if IE 8]>
                                                                     <div class="figure-ie effect-chico">
                                                                     <![endif]-->
 
-                                                                    <div class="port-img animals_fig"></div>
-                                                                    <!--[if !IE 8]><!-->
-                                                                    <figcaption>
-                                                                        <!--<![endif]-->
-                                                                        <!--[if IE 8]>
+                                    <div class="port-img animals_fig"></div>
+                                    <!--[if !IE 8]><!-->
+                                    <figcaption>
+                                      <!--<![endif]-->
+                                      <!--[if IE 8]>
                                                                         <div class="figcaption-ie">
                                                                         <![endif]-->
-                                                                        <h2 class="text-center">FREE CLEAN MOBILE APP LANDING PAGE "ceXas"</h2>
+                                      <h2 class="text-center">FREE CLEAN MOBILE APP LANDING PAGE "ceXas"</h2>
 
 
-                                                                        <!--[if !IE 8]><!-->
-                                                                    </figcaption>
-                                                                    <!--<![endif]-->
-                                                                    <!--[if IE 8]>
+                                      <!--[if !IE 8]><!-->
+                                    </figcaption>
+                                    <!--<![endif]-->
+                                    <!--[if IE 8]>
                                                                     </div>
                                                                     <![endif]-->
-                                                                    <!--[if !IE 8]><!-->
-                                                                </figure>
-                                                                <!--<![endif]-->
-                                                                <!--[if IE 8]>
+                                    <!--[if !IE 8]><!-->
+                                  </figure>
+                                  <!--<![endif]-->
+                                  <!--[if IE 8]>
                                                                 </div>
                                                                 <![endif]-->
-                                                            </a>
+                                </a>
 
 
-                                                            <!--[if !IE 8]><!-->
-                                                        </article>
-                                                        <!-- #post-## -->
-                                                        <!--<![endif]-->
-                                                        <!--[if IE 8]>
+                                <!--[if !IE 8]><!-->
+                              </article>
+                              <!-- #post-## -->
+                              <!--<![endif]-->
+                              <!--[if IE 8]>
                                                         </div>
                                                         <![endif]-->
-                                                    </div>
+                            </div>
 
 
-                                                    <div class="po-column col-sm-4 blog-item padding" data-animation="move-up-short">
-                                                        <!--[if !IE 8]><!-->
-                                                        <article class="po-article portfolio-item-effect-4">
-                                                            <!--<![endif]-->
-                                                            <!--[if IE 8]>
+                            <div class="po-column col-sm-4 blog-item padding" data-animation="move-up-short">
+                              <!--[if !IE 8]><!-->
+                              <article class="po-article portfolio-item-effect-4">
+                                <!--<![endif]-->
+                                <!--[if IE 8]>
                                                             <div  class="po-article portfolio-item-effect-4">
                                                             <![endif]-->
-                                                            <a class="po-column no-padding grid" href="https://www.behance.net/gallery/31862367/FREE-PSD-MOVIE-TEMPLATE-Everest"  target="_blank" data-delay="100" data-animation="fade-in-port">
-                                                                <!--[if !IE 8]><!-->
-                                                                <figure class="effect-chico">
-                                                                    <!--<![endif]-->
-                                                                    <!--[if IE 8]>
+                                <a class="po-column no-padding grid" href="https://www.behance.net/gallery/31862367/FREE-PSD-MOVIE-TEMPLATE-Everest" target="_blank" data-delay="100" data-animation="fade-in-port">
+                                  <!--[if !IE 8]><!-->
+                                  <figure class="effect-chico">
+                                    <!--<![endif]-->
+                                    <!--[if IE 8]>
                                                                     <div class="figure-ie effect-chico">
                                                                     <![endif]-->
 
-                                                                    <div class="port-img sicily_fig"></div>
-                                                                    <!--[if !IE 8]><!-->
-                                                                    <figcaption>
-                                                                        <!--<![endif]-->
-                                                                        <!--[if IE 8]>
+                                    <div class="port-img sicily_fig"></div>
+                                    <!--[if !IE 8]><!-->
+                                    <figcaption>
+                                      <!--<![endif]-->
+                                      <!--[if IE 8]>
                                                                         <div class="figcaption-ie">
                                                                         <![endif]-->
-                                                                        <h2 class="text-center">FREE PSD MOVIE TEMPLATE "Everest"</h2>
+                                      <h2 class="text-center">FREE PSD MOVIE TEMPLATE "Everest"</h2>
 
 
-                                                                        <!--[if !IE 8]><!-->
-                                                                    </figcaption>
-                                                                    <!--<![endif]-->
-                                                                    <!--[if IE 8]>
+                                      <!--[if !IE 8]><!-->
+                                    </figcaption>
+                                    <!--<![endif]-->
+                                    <!--[if IE 8]>
                                                                     </div>
                                                                     <![endif]-->
-                                                                    <!--[if !IE 8]><!-->
-                                                                </figure>
-                                                                <!--<![endif]-->
-                                                                <!--[if IE 8]>
+                                    <!--[if !IE 8]><!-->
+                                  </figure>
+                                  <!--<![endif]-->
+                                  <!--[if IE 8]>
                                                                 </div>
                                                                 <![endif]-->
-                                                            </a>
+                                </a>
 
 
-                                                            <!--[if !IE 8]><!-->
-                                                        </article>
-                                                        <!-- #post-## -->
-                                                        <!--<![endif]-->
-                                                        <!--[if IE 8]>
+                                <!--[if !IE 8]><!-->
+                              </article>
+                              <!-- #post-## -->
+                              <!--<![endif]-->
+                              <!--[if IE 8]>
                                                         </div>
                                                         <![endif]-->
-                                                    </div>
+                            </div>
 
 
-                                                    <div class="clearfix"></div>
-                                                    <div id="btns" class="po-column" data-delay="400" data-animation="move-up-short">
-                                                        <a href="https://www.behance.net/collection/44063759/FREEBIES" class="btn outline-button lighter" target="_blank">
+                            <div class="clearfix"></div>
+                            <div id="btns" class="po-column" data-delay="400" data-animation="move-up-short">
+                              <a href="https://www.behance.net/collection/44063759/FREEBIES" class="btn outline-button lighter" target="_blank">
                                                             See All Freebies
                                                         </a>
-                                                    </div>
+                            </div>
 
-                                                </div>
+                          </div>
 
 
-                                                <br>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="end" class="po-section section-image section-background-image-parallax section- skrollable skrollable-before"
-                                         data-center="background-position: 50% 0px;"
-                                         data-bottom-top="background-position: 50% 150px;"
-                                         data-top-bottom="background-position: 50% -150px;"
-                                         data-anchor-target="#end">
-                                        <!--[if IE 8]>
+                          <br>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="end" class="po-section section-image section-background-image-parallax section- skrollable skrollable-before" data-center="background-position: 50% 0px;" data-bottom-top="background-position: 50% 150px;" data-top-bottom="background-position: 50% -150px;" data-anchor-target="#end">
+                      <!--[if IE 8]>
                                         <img class="section-bg-ie"  src="/images/1300-800.png" alt="background">
                                         <![endif]-->
-                                        <div class="ss-style-triangles"></div>
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="po-column col-sm-8 col-sm-offset-2" data-delay="400" data-animation="move-up-short">
-                                                </div>
-                                                <div class="po-column col-sm-8 col-sm-offset-2 paddingTop paddingBott" data-delay="800" data-animation="move-up">
-                                                    <div style="height:400px;"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </div>
+                      <div class="ss-style-triangles"></div>
+                      <div class="container">
+                        <div class="row">
+                          <div class="po-column col-sm-8 col-sm-offset-2" data-delay="400" data-animation="move-up-short">
+                          </div>
+                          <div class="po-column col-sm-8 col-sm-offset-2 paddingTop paddingBott" data-delay="800" data-animation="move-up">
+                            <div style="height:400px;"></div>
+                          </div>
                         </div>
+                      </div>
 
-                        <div class="padding">
-                            <div class="row po-full-width">
-                                <div class="po-column col-sm-12 padding" data-delay="0" data-animation="fade-in">
-                                    <a href="https://www.dropbox.com/s/4ejzcpx4sr8pr9z/Jajang_Irawan.pdf?dl=0" target="_blank" class="banner-button btn-lg btn-block btn-icon-ani">download my resume (PDF)</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="whole-footer">
-
-<div class="footer-container-bottom">
-<div class="container">
-  <div class="row">
-    <div class="po-column col-sm-12 no_margin_no_padding" data-delay="0" data-animation="fade-in">
-
-      <div class="col-sm-12 footer_copyrightpadding">
-        <p class="text-center"><span>© 2015. <a href="#">Jajang Irawan</span></p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-</div>                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
                 </div>
+              </div>
+
+              <div class="padding">
+                <div class="row po-full-width">
+                  <div class="po-column col-sm-12 padding" data-delay="0" data-animation="fade-in">
+                    <a href="https://www.dropbox.com/s/4ejzcpx4sr8pr9z/Jajang_Irawan.pdf?dl=0" target="_blank" class="banner-button btn-lg btn-block btn-icon-ani">download my resume (PDF)</a>
+                  </div>
+                </div>
+              </div>
+              <div class="whole-footer">
+
+                <div class="footer-container-bottom">
+                  <div class="container">
+                    <div class="row">
+                      <div class="po-column col-sm-12 no_margin_no_padding" data-delay="0" data-animation="fade-in">
+
+                        <div class="col-sm-12 footer_copyrightpadding">
+                          <p class="text-center"><span>© 2015. <a href="#">Jajang Irawan</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
-            <!-- /st-content-inner -->
+          </div>
         </div>
-        <!-- /st-content -->
+        <!-- /st-content-inner -->
+      </div>
+      <!-- /st-content -->
     </div>
     <!-- /st-pusher -->
 </div>
