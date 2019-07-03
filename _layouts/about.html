@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+Name: Piroll - Minimal & Clean Portfolio HTML Template
+Version: 1.0.0
+Author: robirurk, nK
+Website: https://nkdev.info
+Purchase: https://nkdev.info
+Support: https://nk.ticksy.com
+License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
+Copyright 2017.
+-->
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <header class="nk-header">
+      {% include mobile_navbar.html %}
+    </header>
+    {% include navbar.html %}
+    <div class="nk-main bg-white">
+      <!-- START: Header Title -->
+      <!--
+      Additional Classes:
+      .nk-header-title-sm
+      .nk-header-title-md
+      .nk-header-title-lg
+      .nk-header-title-xl
+      .nk-header-title-full
+      .nk-header-title-parallax
+      .nk-header-title-parallax-opacity
+      -->
+      <div class="nk-header-title nk-header-title-md nk-header-title-parallax nk-header-title-parallax-opacity">
+        <!-- Isi header -->
+        <div class="container-fluid">
+          <div class="row vertical-gap">
+            <div class="col-lg-6">
+              <div class="bg-image bg-image-parallax" style="background-image: url('assets/images/about-me-photo.jpg');"></div>
+              <div class="nk-gap-6"></div>
+              <div class="nk-gap-6"></div>
+              <div class="nk-gap-6"></div>
+              <div class="nk-gap-6"></div>
+              <div class="nk-gap-6"></div>
+              <div class="nk-gap-6"></div>
+              <div class="nk-gap-6"></div>
+              <div class="nk-gap-6"></div>
+              <div class="nk-gap-6"></div>
+              <div class="nk-gap-6"></div>
+              <div class="nk-gap-6"></div>
+            </div>
+            <div class="col-lg-6">
+              <div class="nk-gap-6"></div>
+              <div class="nk-gap-6"></div>
+              <div class="nk-gap"></div>
+              <div class="mw-620 text-left offset-md-1">
+                <h2>Hi...</h2>
+                <p>My name is Jajang Irawan, an experienced designer who has been working on UI/UX concept since 2008. I am very passionate with UI/UX design. I love to levelling up my skill and learn what’s new in UI/UX stack. One of my working experiences is joining Bizness Apps (https://www.biznessapps.com), a US based startup, for more than 3 years to handle some of major tasks in designing web, user interface, etc.   </p>
+                <a href="https://join.skype.com/invite/ispodeJW6vJk" class="nk-btn nk-btn-long">let's talk</a><br><br><br>
+                <img src="assets/images/waving-hand-sign_1f44b.png" alt="" class="nk-img-fit">
+              </div>
+              <div class="nk-gap-3"></div>
+              <div class="nk-gap-6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END: Header Title -->
+      <div class="nk-main">
+        {% include work_summary.html %}
+        {% include need_a_project_skype.html %}
+        {% include instagram.html %}
+        {% include footer.html %}
+      </div>
+      {% include js.html %}
+    </body>
+  </html>

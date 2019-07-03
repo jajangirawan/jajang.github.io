@@ -27,6 +27,7 @@ url: "https://jajangirawan.com" # the base hostname & protocol for your site, e.
 
 # Build settings
 markdown: kramdown
+permalink: /:title/
 plugins:
   - jekyll-feed
 
